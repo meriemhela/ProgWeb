@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma Page d'Accueil</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centre les éléments horizontalement */
+      justify-content: center; /* Centre les éléments verticalement */
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      animation: typewriter 3s steps(40) 1s 1 normal both;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    footer {
+      background-color: rgb(123, 24, 123);
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+
+    @keyframes typewriter {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    a:link {
+      color: red;
+    }
+
+    /* visited link */
+    a:visited {
+      color: plum;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: hotpink;
+    }
+
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>INFORMATIONS PERSONNELLES :</h1>
+      <br />
+      <p><b>Nom et Prenom :</b> HELALI Meriem</p>
+      <p><b>Matricule :</b> 212131050601</p>
+      <p><b>Email :</b> helalimeriem.mi@gmail.com</p>
+      <p><b>Groupe :</b> 01</p>
+      <p><b>Module :</b> Programmation web</p>
+      <br />
+      <h2><a href="tps.html"> Voci la liste des TPs !</a></h2>
+    </header>
+
+    <footer>
+      <p>&copy; 2023 Helali.Meriem</p>
+    </footer>
+  </body>
+</html>
